@@ -20,14 +20,14 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_cdltd_loaner_req.loaner_request_user</roles>
+        <roles>x_cdltd_loaner_req.loaner_request_user,x_cdltd_loaner_req.admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-14 06:16:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d621736f0c3d11107f4409f76a7682db</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Open- Unassigned</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">4a025bef0cb911107f4409f76a7682b6</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="Loaner Request">4a025bef0cb911107f4409f76a7682b6</sys_scope>
         <sys_update_name>sys_app_module_d621736f0c3d11107f4409f76a7682db</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-14 06:18:19</sys_updated_on>
+        <sys_updated_on>2022-09-14 10:24:36</sys_updated_on>
         <timeline_page/>
         <title>Open- Unassigned</title>
         <uncancelable>false</uncancelable>
