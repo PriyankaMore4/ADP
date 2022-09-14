@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" max_length="40" name="x_cdltd_loaner_req_loaner_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="projector" label="Item type" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Laptop" sequence="0" value="laptop"/>
+                <element inactive_on_update="false" label="Mobile Phone" sequence="1" value="mobile phone"/>
+                <element inactive_on_update="false" label="Projector" sequence="2" value="projector"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="santa clara" label="Depot" max_length="40" name="u_choice_5" type="string">
+            <choice>
+                <element inactive_on_update="false" label="London" sequence="0" value="london"/>
+                <element inactive_on_update="false" label="Buenos Aires" sequence="1" value="buenos aires"/>
+                <element inactive_on_update="false" label="Santa clara" sequence="2" value="santa clara"/>
+                <element inactive_on_update="false" label="Singapore" sequence="3" value="singapore"/>
+                <element inactive_on_update="false" label="Other" sequence="4" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Start Date" mandatory="true" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="End Date" mandatory="true" max_length="40" name="u_glide_date_time_3" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Requested For" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Location to be used" max_length="40" name="u_string_6" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_string_7" type="string"/>
+    </element>
+</database>

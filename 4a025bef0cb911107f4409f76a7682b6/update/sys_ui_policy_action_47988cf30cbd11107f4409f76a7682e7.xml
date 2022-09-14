@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_string_7</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-14 07:59:37</sys_created_on>
+        <sys_id>47988cf30cbd11107f4409f76a7682e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_string_7</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">4a025bef0cb911107f4409f76a7682b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">4a025bef0cb911107f4409f76a7682b6</sys_scope>
+        <sys_update_name>sys_ui_policy_action_47988cf30cbd11107f4409f76a7682e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-14 07:59:37</sys_updated_on>
+        <table>x_cdltd_loaner_req_loaner_request</table>
+        <ui_policy display_value="Make other fiels visable and mandatory - Loner Request">1cf7c0f30cbd11107f4409f76a7682c7</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>
